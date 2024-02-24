@@ -1,0 +1,26 @@
+[t10]
+FileName2=t9_12_contactDetails.UNK
+RawStepEndTime=1708755755151
+FileName5=t9_13_thinkingTesterLogo.UNK
+FileName4=t7_9_contactList.UNK
+FileName7=t9_14_styles.UNK
+FileName6=t1_1_login.UNK
+RequestBodyFile=t10_RequestBody.txt
+RawStepName=65d987aac0d7050013a34314
+ContentType=application/json
+URL1=https://thinking-tester-contact-list.herokuapp.com/contacts/65d987aac0d7050013a34314
+URL2=https://thinking-tester-contact-list.herokuapp.com/js/contactDetails.js
+URL3=https://thinking-tester-contact-list.herokuapp.com/js/addContact.js
+ResponseHeaderFile=t10_ResponseHeader.txt
+URL4=https://thinking-tester-contact-list.herokuapp.com/js/contactList.js
+URL5=https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png
+URL6=https://thinking-tester-contact-list.herokuapp.com/js/login.js
+URL7=https://thinking-tester-contact-list.herokuapp.com/css/styles.css
+SnapshotXmlFile=snapshot_10.xml
+RequestHeaderFile=t10_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1708755754907
+Total=7
+StepName=Url: 65d987aac0d7050013a34314
+FileName1=t10.json
+FileName3=t5_6_addContact.UNK

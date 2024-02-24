@@ -1,0 +1,331 @@
+[API Trapper      (29cc:1188)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (26a4:1ca8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (1a1c:1974)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1a1c:25a8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1a1c:25a8)] Load Network Traffic Analyzers:
+[Network Analyzer (1a1c:25a8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1a1c:25a8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1a1c:25a8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1a1c:25a8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1a1c:25a8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1a1c:25a8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1a1c:25a8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1a1c:25a8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1a1c: 5a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.195.35:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 3.229.186.102:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:1318)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 74.125.200.84:443   (Service=)  (Sid=  3)  PROXIED!
+[Net An. Error    (1a1c:1318)] SSLAccept(ssl_id = 2125519632176 = 000001EEE2D7B730) Failed, ctx = 000001EEE2DA88E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (1a1c:1318)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1a1c:18a0)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c:18a0)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "GET /"   
+[Network Analyzer (1a1c: 5a8)]   (Sid:  2) Client -> Server @ : 692 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 6fc)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1a1c: 6fc)] SSLAccept(ssl_id = 2125520200416 = 000001EEE2E062E0) Failed, ctx = 000001EEE2DA88E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (1a1c: 6fc)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1a1c: 5a8)]   (Sid:  2) Server -> Client : 2056 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /css/styles.css"   
+[Network Analyzer (1a1c: 5a8)]   (Sid:  2) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c: 5a8)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (1a1c: 5a8)]   (Sid:  2) Server -> Client : 1750 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 3.229.186.102:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c: 5a8)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 3.229.186.102:443   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterLogo.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid:  2) Client -> Server @ : 662 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c:1f4c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c:1f4c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1a1c: 5a8)]   (Sid:  2) Server -> Client : 13536 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /js/login.js"   
+[Network Analyzer (1a1c: 5a8)]   (Sid:  4) Client -> Server @ : 587 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid:  4) Server -> Client : 1750 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c:1c5c)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c:1c5c)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterIcon.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid:  4) Client -> Server @ : 662 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.193.106:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (1a1c: 5a8)]   (Sid:  4) Server -> Client : 1985 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c:1e98)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1a1c:1e98)] SSLAccept(ssl_id = 2125520412480 = 000001EEE2E39F40) Failed, ctx = 000001EEE2DA88E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (1a1c:1e98)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.193.106:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (1a1c:2bb4)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1a1c:2bb4)] SSLAccept(ssl_id = 2125520518624 = 000001EEE2E53DE0) Failed, ctx = 000001EEE2DA88E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (1a1c:2bb4)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1a1c: 5a8)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.205.227:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (1a1c:21d8)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1a1c:21d8)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1a1c: 5a8)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (1a1c: 5a8)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (1a1c: 5a8)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (1a1c: 5a8)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (1a1c: 5a8)]   (Sid:  7) Connection Terminated (by Client)
+[API Trapper      (28b0:2a04)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.193.106:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1a1c:1b08)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1a1c:1b08)] SSLAccept(ssl_id = 2125519647088 = 000001EEE2D7F170) Failed, ctx = 000001EEE2DA88E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (1a1c:1b08)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1a1c: 5a8)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.182.106:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (1a1c: 4a8)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1a1c: 4a8)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.193.106:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (1a1c:28f4)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1a1c:28f4)] SSLAccept(ssl_id = 2125520582928 = 000001EEE2E63910) Failed, ctx = 000001EEE2DA88E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (1a1c:28f4)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1a1c: 5a8)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.193.106:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (1a1c:2814)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1a1c:2814)] SSLAccept(ssl_id = 2125519987088 = 000001EEE2DD2190) Failed, ctx = 000001EEE2DA88E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (1a1c:2814)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1a1c: 5a8)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.205.227:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (1a1c: f28)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1a1c: f28)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "POST /service/update2/json?cup2key=13:6wHm7Lp2ThHrS_LK9Thaq45ur6MdthDGNUmU7ETjlEs&cup2hreq=c050bd58fe32d0ecef4bf2623c971d7293d2026836e8e50208272c1b6ff1f830"
+[Network Analyzer (1a1c: 5a8)]   (Sid: 13) Client -> Server @ : 1338 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 13) Client -> Server @ : 8592 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 13) Server -> Client : 1149 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 13) Server -> Client : 1134 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 13) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[WebMultiInProcNotify_x64:  (29cc:145c)] Insert Text Check: "Contact List App"
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.195.138:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (1a1c:22d8)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1a1c:22d8)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "GET /v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTIyLjAuNjI2MS42ORopCAUQARobCg0IBRAGGAEiAzAwMTABENS8FRoCGAt0oLABIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDh9g0aAhgLbiF0GiIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQme4NGgIYC6AU6EUiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEOmxBxoCGAuOVVtsIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBCJOBoCGAvPXKWjIgQgASACKAQaKQgPEAEaGwoNCA8QBhgBIgMwMDEwARC5uAIaAhgLafHOVSIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAtiOdr4IgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYC5eeSMsiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEMQVGgIYC8p7HXwiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEPePAhoCGAtwoN7WIgQgASACKAEaKQgHEAEaGwoNCAcQBhgBIgMwMDEwARCPvQ4aAhgLE1GcOCIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQzyEaAhgLWoHAwSIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 14) Client -> Server @ : 1175 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 14) Server -> Client : 336 bytes (SSL) (Service=HTTP)
+[API Trapper      (24c4:2e9c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 3.210.192.5:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (1a1c:2094)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c:2094)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "POST /users/login"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Client -> Server @ : 751 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Server -> Client : 1264 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /contactList"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Client -> Server @ : 937 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Server -> Client : 1593 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /css/styles.css"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Client -> Server @ : 866 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 3.210.192.5:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Server -> Client : 798 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 3.210.192.5:443   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterLogo.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Client -> Server @ : 925 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Server -> Client : 799 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /js/contactList.js"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Client -> Server @ : 769 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c:2e54)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c:2e54)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Server -> Client : 4704 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /contacts"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Client -> Server @ : 961 bytes (SSL)(Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterIcon.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 16) Client -> Server @ : 924 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Server -> Client : 745 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 16) Server -> Client : 794 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c:1c74)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c:1c74)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[WebMultiInProcNotify_x64:  (29cc:145c)] Insert Text Check: "Contact List"
+[Web Request      (1a1c: 5a8)] "GET /addContact"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Client -> Server @ : 947 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Server -> Client : 3235 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /css/styles.css"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Client -> Server @ : 865 bytes (SSL)(Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterLogo.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 16) Client -> Server @ : 924 bytes (SSL)(Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /js/addContact.js"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 17) Client -> Server @ : 767 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Server -> Client : 806 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 16) Server -> Client : 807 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 17) Server -> Client : 2983 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterIcon.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 17) Client -> Server @ : 923 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.196.170:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (1a1c: 5a8)]   (Sid: 17) Server -> Client : 806 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: c8c)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1a1c: c8c)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "GET /v1/pages/ChRDaHJvbWUvMTIyLjAuNjI2MS42ORJfCUEaAtOhUXjPEgUNa2iabhIFDU-eJ_gSBQ1UFkSqEgUNeG8SGRIFDVPydWESBQ3mUySGEgUN0nMF_hIFDUZnFX0SBQ2hECrNEgUNzwR52BIFDWnHzNkhh39I6vvemKM=?alt=proto"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 18) Client -> Server @ : 633 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 18) Server -> Client : 596 bytes (SSL) (Service=HTTP)
+[WebMultiInProcNotify_x64:  (29cc:145c)] Insert Text Check: "Add Contact"
+[Network Analyzer (1a1c: 5a8)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.76.35:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (1a1c: 5a8)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (1a1c:2d9c)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1a1c:2d9c)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=122"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 19) Client -> Server @ : 475 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 19) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.195.234:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (1a1c:26b8)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1a1c:26b8)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 54.83.6.65:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (1a1c:2eb4)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c:2eb4)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "POST /contacts"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Client -> Server @ : 1277 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Server -> Client : 1063 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /contactList"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Client -> Server @ : 999 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Server -> Client : 708 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /css/styles.css"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Client -> Server @ : 866 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 54.83.6.65:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Server -> Client : 794 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 54.83.6.65:443   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterLogo.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Client -> Server @ : 925 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Server -> Client : 795 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /js/contactList.js"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Client -> Server @ : 855 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c:17d4)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c:17d4)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Server -> Client : 794 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /contacts"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Client -> Server @ : 961 bytes (SSL)(Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterIcon.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 22) Client -> Server @ : 924 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 22) Server -> Client : 798 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Server -> Client : 1064 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c:184c)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c:184c)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "GET /contactDetails"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Client -> Server @ : 951 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Server -> Client : 3201 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /css/styles.css"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Client -> Server @ : 869 bytes (SSL)(Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /js/contactDetails.js"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 22) Client -> Server @ : 775 bytes (SSL)(Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterLogo.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 23) Client -> Server @ : 928 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 22) Server -> Client : 2988 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Server -> Client : 798 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /contacts/65d987aac0d7050013a34314"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 22) Client -> Server @ : 957 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 23) Server -> Client : 799 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterIcon.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 23) Client -> Server @ : 927 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 22) Server -> Client : 1062 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 23) Server -> Client : 798 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 18) Connection Terminated (by Server)
+[WebMultiInProcNotify_x64:  (29cc:145c)] Insert Text Check: "Contact Details"
+[Network Analyzer (1a1c: 5a8)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 3.210.192.5:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (1a1c: 1bc)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c: 1bc)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "GET /contactList"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Client -> Server @ : 1003 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Server -> Client : 712 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /css/styles.css"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Client -> Server @ : 866 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Server -> Client : 798 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 3.210.192.5:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 3.210.192.5:443   (Service=)  (Sid= 26)  PROXIED!
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterLogo.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Client -> Server @ : 925 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Server -> Client : 799 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /js/contactList.js"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Client -> Server @ : 855 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Server -> Client : 802 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /contacts"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Client -> Server @ : 1013 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:11e4)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Server -> Client : 716 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 3.210.192.5:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (1a1c:11e4)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1a1c: 62c)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c: 62c)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterIcon.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Client -> Server @ : 924 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Server -> Client : 802 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: dd4)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1a1c: dd4)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1a1c: 5a8)] "GET /logout"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Client -> Server @ : 943 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Server -> Client : 989 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /css/styles.css"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Client -> Server @ : 861 bytes (SSL)(Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /js/logout.js"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Client -> Server @ : 759 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Server -> Client : 1190 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Server -> Client : 802 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "POST /users/logout"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Client -> Server @ : 1008 bytes (SSL)(Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterIcon.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Client -> Server @ : 919 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Server -> Client : 802 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Server -> Client : 663 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Client -> Server @ : 964 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Server -> Client : 716 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /css/styles.css"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Client -> Server @ : 855 bytes (SSL)(Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterLogo.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Client -> Server @ : 914 bytes (SSL)(Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /js/login.js"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 26) Client -> Server @ : 838 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 24) Server -> Client : 803 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 25) Server -> Client : 802 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c: 5a8)]   (Sid: 26) Server -> Client : 802 bytes (SSL) (Service=HTTP)
+[Web Request      (1a1c: 5a8)] "GET /img/thinkingTesterIcon.png"   
+[Network Analyzer (1a1c: 5a8)]   (Sid: 26) Client -> Server @ : 913 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a1c:25a8)] Address lookup for 5557711ef6cf511 = 192.168.146.1
+[Network Analyzer (1a1c:25a8)] Request Connection: Remote Server @ 142.250.182.138:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (1a1c: 5a8)]   (Sid: 26) Server -> Client : 802 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a1c:2a98)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1a1c:2a98)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)

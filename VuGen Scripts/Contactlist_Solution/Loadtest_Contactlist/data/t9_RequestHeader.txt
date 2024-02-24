@@ -1,0 +1,18 @@
+GET /contactDetails HTTP/1.1
+Host: thinking-tester-contact-list.herokuapp.com
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://thinking-tester-contact-list.herokuapp.com/contactList
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en;q=0.9
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ5ODYxY2VhYTRhZDAwMTMxZTVhYWEiLCJpYXQiOjE3MDg3NTQ2MjZ9.fkZ2_Bu5nfwpoGSsPFR03dEeeQspPvf2M60nblhvsmM
+

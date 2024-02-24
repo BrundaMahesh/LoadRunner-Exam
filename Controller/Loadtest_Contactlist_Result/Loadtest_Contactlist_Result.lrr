@@ -1,0 +1,33 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2023.0.0.0
+Path=Scenario1
+Subject=
+Result_file=D:\Load Runner Exam\Controller\Loadtest_Contactlist_Result\Loadtest_Contactlist_Result.lrr
+Description=
+ResultName=Loadtest_Contactlist_Result
+Time_Zone=-19800
+Start_time=1708758358
+Daylight_Bias=0
+Stop_time=1708758702
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 3 Vusers: 1 every 00:00:15 (HH:MM:SS); Run for 00:02:00 (HH:MM:SS); Stop all Vusers: 1 every 00:00:30 (HH:MM:SS)
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST3_1E15;R120;SP3_1E30;
+[Scripts]
+Loadtest_Contactlist=D:\Load Runner Exam\VuGen Scripts\Contactlist_Solution\Loadtest_Contactlist\Loadtest_Contactlist.usr
+[Scripts_types]
+Loadtest_Contactlist=Multi+QTWeb

@@ -1,0 +1,11 @@
+[t10]
+FileName1=t10_65d987aac0d7050013a34314.json
+URL1=https://thinking-tester-contact-list.herokuapp.com/contacts/65d987aac0d7050013a34314
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_10.xml
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

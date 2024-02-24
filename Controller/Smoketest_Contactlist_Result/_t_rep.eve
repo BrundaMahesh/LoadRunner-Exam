@@ -1,0 +1,28 @@
+28 11 1708762313 2 206086696 -1306884371 1699576
+28 4 Smoketest_Contactlist 1 1708762313 0 Smoketest_Contactlist localhost 0 1
+28 10 localhost 28 0 0
+28 0 Smoketest_Contactlist 1 1708762315 0 localhost 0
+28 8 Smoketest_Contactlist 1  0 0
+28 2 Smoketest_Contactlist 1 1708762315 0 p 0 0
+28 4 Smoketest_Contactlist 2 1708762328 0 Smoketest_Contactlist localhost 0 1
+28 0 Smoketest_Contactlist 2 1708762330 0 localhost 0
+28 8 Smoketest_Contactlist 2  0 0
+28 2 Smoketest_Contactlist 2 1708762330 0 p 0 0
+28 4 Smoketest_Contactlist 3 1708762343 0 Smoketest_Contactlist localhost 0 1
+28 0 Smoketest_Contactlist 3 1708762348 0 localhost 0
+28 8 Smoketest_Contactlist 3  0 0
+28 2 Smoketest_Contactlist 3 1708762348 0 p 0 0
+28 4 Smoketest_Contactlist 4 1708762358 0 Smoketest_Contactlist localhost 0 1
+28 0 Smoketest_Contactlist 4 1708762360 0 localhost 0
+28 8 Smoketest_Contactlist 4  0 0
+28 2 Smoketest_Contactlist 4 1708762360 0 p 0 0
+28 4 Smoketest_Contactlist 5 1708762373 0 Smoketest_Contactlist localhost 0 1
+28 0 Smoketest_Contactlist 5 1708762375 0 localhost 0
+28 8 Smoketest_Contactlist 5  0 0
+28 2 Smoketest_Contactlist 5 1708762375 0 p 0 0
+28 1 Smoketest_Contactlist 1 1708762551 0 2
+28 1 Smoketest_Contactlist 2 1708762566 0 2
+28 1 Smoketest_Contactlist 3 1708762589 0 2
+28 1 Smoketest_Contactlist 4 1708762600 0 2
+28 1 Smoketest_Contactlist 5 1708762670 0 2
+28 12 1708762670 1 1708762670 0 5742781

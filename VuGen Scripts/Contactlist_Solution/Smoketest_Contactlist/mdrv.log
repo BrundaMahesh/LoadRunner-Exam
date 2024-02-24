@@ -1,0 +1,70 @@
+Virtual User Script started at: 24-02-2024 11:54:53
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\Load Runner Exam\VuGen Scripts\Smoketest_Contactlist\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(16): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(16): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(19): web_add_header("Accept-Language") started  	[MsgId: MMSG-26355]
+vuser_init.c(19): web_add_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(22): web_url("thinking-tester-contact-list.herokuapp.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(22): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(22): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(22): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/login.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(22): Registered web_reg_find successful for "Text=Contact List App" (count=2)  	[MsgId: MMSG-26364]
+vuser_init.c(22): web_url("thinking-tester-contact-list.herokuapp.com") was successful, 15841 body bytes, 3259 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(32): web_image_check started  	[MsgId: MMSG-26355]
+vuser_init.c(32): "The Thinking Tester Logo" succeeded (1 occurrence(s) found. Alt="", Src="/img/thinkingTesterLogo.png")  	[MsgId: MMSG-27192]
+vuser_init.c(32): web_image_check was successful  	[MsgId: MMSG-26392]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(5): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(5): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(22): Warning: The string '"email":"brunda987@gmail.com","password":"Brunda@987"' with parameter delimiters is not a parameter.
+Action.c(22): Notify: Saving Parameter "tokenParameter = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ5ODYxY2VhYTRhZDAwMTMxZTVhYWEiLCJpYXQiOjE3MDg3NTY1MzJ9.W-gQicWNoWBuB25Idtp8hokQDsGupq-8Vv87Be3v0h0".
+Action.c(22): web_custom_request("login") was successful, 283 body bytes, 990 header bytes  	[MsgId: MMSG-26386]
+Action.c(38): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(38): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(41): web_url("contactList") started  	[MsgId: MMSG-26355]
+Action.c(41): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(41): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(41): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(41): Registered web_reg_find successful for "Text=Contact List" (count=1)  	[MsgId: MMSG-26364]
+Action.c(41): web_url("contactList") was successful, 4709 body bytes, 3169 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(5): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(5): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(22): Warning: The string '"email":"brunda987@gmail.com","password":"Brunda@987"' with parameter delimiters is not a parameter.
+Action.c(22): Notify: Saving Parameter "tokenParameter = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ5ODYxY2VhYTRhZDAwMTMxZTVhYWEiLCJpYXQiOjE3MDg3NTY1MzR9.ziLmc-PwukCuRO2jiYXAp_rSwPr5EOFXtaZN6hU8wHY".
+Action.c(22): web_custom_request("login") was successful, 283 body bytes, 990 header bytes  	[MsgId: MMSG-26386]
+Action.c(38): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(38): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(41): web_url("contactList") started  	[MsgId: MMSG-26355]
+Action.c(41): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(41): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(41): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(41): Registered web_reg_find successful for "Text=Contact List" (count=1)  	[MsgId: MMSG-26364]
+Action.c(41): web_url("contactList") was successful, 18340 body bytes, 3239 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 2.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 8204), ended OK."

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Load Runner Exam\VuGen Scripts\Smoketest_Contactlist
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\load runner exam\vugen scripts\smoketest_contactlist\\logfile.log
+d:\load runner exam\vugen scripts\smoketest_contactlist\\combined_Smoketest_Contactlist.c
+d:\load runner exam\vugen scripts\smoketest_contactlist\\pre_cci.c

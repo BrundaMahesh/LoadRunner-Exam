@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3.htm
+URL1=https://thinking-tester-contact-list.herokuapp.com/contactList
+Total=2
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_contactList.html
+URL2=https://thinking-tester-contact-list.herokuapp.com/js/contactList.js
+[ProtocolInfo]
+ProtocolId=QTWeb

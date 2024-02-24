@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Load Runner Exam\VuGen Scripts\Contactlist_Solution\Loadtest_Contactlist
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\load runner exam\vugen scripts\contactlist_solution\loadtest_contactlist\\logfile.log
+d:\load runner exam\vugen scripts\contactlist_solution\loadtest_contactlist\\combined_Loadtest_Contactlist.c
+d:\load runner exam\vugen scripts\contactlist_solution\loadtest_contactlist\\pre_cci.c

@@ -1,0 +1,68 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: login",
+                "infFile": "t2.inf",
+                "time": 1708755751972
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: contactList",
+                "infFile": "t3.inf",
+                "time": 1708755752479
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: contacts",
+                "infFile": "t4.inf",
+                "time": 1708755752760
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: addContact",
+                "infFile": "t5.inf",
+                "time": 1708755753291
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: contacts_2",
+                "infFile": "t6.inf",
+                "time": 1708755753585
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: contactList_2",
+                "infFile": "t7.inf",
+                "time": 1708755754080
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: contacts_3",
+                "infFile": "t8.inf",
+                "time": 1708755754351
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: contactDetails",
+                "infFile": "t9.inf",
+                "time": 1708755754881
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: 65d987aac0d7050013a34314",
+                "infFile": "t10.inf",
+                "time": 1708755755167
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: contactList_3",
+                "infFile": "t11.inf",
+                "time": 1708755755689
+            }
+        ],
+        "transactions": []
+    }
+]

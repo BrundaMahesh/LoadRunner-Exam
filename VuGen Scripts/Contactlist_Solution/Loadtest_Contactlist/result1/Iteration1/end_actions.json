@@ -1,0 +1,20 @@
+[
+    {
+        "actionName": "vuser_end",
+        "steps": [
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: logout",
+                "infFile": "t12.inf",
+                "time": 1708755756196
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: thinking-tester-contact-list.herokuapp.com_2",
+                "infFile": "t14.inf",
+                "time": 1708755756957
+            }
+        ],
+        "transactions": []
+    }
+]

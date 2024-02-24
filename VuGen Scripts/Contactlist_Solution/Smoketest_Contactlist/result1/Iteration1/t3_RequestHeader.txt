@@ -1,0 +1,10 @@
+GET /contactList HTTP/1.1
+Referer: https://thinking-tester-contact-list.herokuapp.com/
+Accept-Language: en-GB,en;q=0.9
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: thinking-tester-contact-list.herokuapp.com
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ5ODYxY2VhYTRhZDAwMTMxZTVhYWEiLCJpYXQiOjE3MDg3NTY1MzJ9.W-gQicWNoWBuB25Idtp8hokQDsGupq-8Vv87Be3v0h0
+

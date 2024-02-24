@@ -1,0 +1,13 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=text/html
+StepName=Url: contactList
+Total=1
+FileName1=t3.html
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RawStepEndTime=1708755896625
+RawStepName=contactList
+RequestBodyFile=t3_RequestBody.txt
+RawStepStartTime=1708755896156
+URL1=https://thinking-tester-contact-list.herokuapp.com/contactList
